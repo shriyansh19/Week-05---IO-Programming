@@ -5,6 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class JSONFileMergerTest {
     @Test
+    <JSONFileMerger>
     void testMergeJSONFiles() {
         JSONFileMerger merger = new JSONFileMerger();
         try {
